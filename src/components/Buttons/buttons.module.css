@@ -1,0 +1,24 @@
+.container {
+  text-align: center;
+}
+
+.btn {
+  background-color: #5125db;
+  color: #ffffff;
+  border-radius: 5px;
+  border: 0;
+  cursor: pointer;
+  font-family: inherit;
+  padding: 8px 15px;
+  margin: 5px;
+  font-size: 14px;
+}
+
+.btn:active {
+  transform: scale(0.97);
+}
+
+.btn:disabled {
+  background-color: var(--line-border-empty);
+  cursor: alias;
+}

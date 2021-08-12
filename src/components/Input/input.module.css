@@ -1,0 +1,12 @@
+.container {
+    text-align: center;
+}
+
+input {
+    width: 127px;
+    height: 30px;
+    border: 5px solid var(--line-border-fill);
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+}
